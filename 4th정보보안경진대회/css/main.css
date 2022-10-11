@@ -1,0 +1,108 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+.navbar-default{background-color:#eabe40; border-color:none;}
+.navbar-default .navbar-nav>li>a{font-family: 'Rambla', sans-serif; font-size: 18px; color: #222935;} 
+.navbar-default .navbar-nav>li>a:hover{color:#333;}
+.navbar-default .navbar-nav>li:hover{background-color:white;}
+.jumbotron{background-color: white;}
+.jumbotron img{position: relative;
+top: 30px;}
+.jumbotron p{
+	font-family: '맑은 고딕';
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.jumbotron.text-center{width: 100%;
+height: 38%;}
+
+.collapse-navbar-collapse{background-color: yellow;}
+
+.jumbotron span{
+	font-family: '맑은 고딕';
+	font-weight: 500;
+	font-size: 18px;
+}
+.btn-default{
+	font-family: 'Rambla', sans-serif;
+	margin-top: 5px;
+}
+.article{
+	margin-bottom: 40px;
+	animation-name: slide;
+    -webkit-animation-name: slide; 
+    animation-duration: 2s; 
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+.footer{
+	background-color:#efefef;
+	height: 80px;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+}
+footer img{
+	float: right;
+	margin-top: 18px;
+	margin-right: 40px;
+	width: 400px;
+}
+@media screen and (max-width: 517px){
+	.jumbotron img{
+		width: 100%;
+	}
+	footer img{
+		width: 100%;
+		float: none;
+		margin: 4% 0 0 0;
+	}
+}
+
+
+/* ---------------------------- R U L E * C S S -------------------------------------- */
+.rule{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #efefef;
+}
+.rule h1{
+	font-family: 'Rambla', sans-serif;
+	font-size: 48px;
+}
+
+.content p{
+	font-family: '맑은 고딕';
+	font-size: 16px;
+}
+.content p span{
+	font-family: 'Rambla', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+nav .container #myNavbar .navbar-left .home{
+	background-color: white;
+}
+nav .container #myNavbar .navbar-left .home a{
+	color: #47BAEC;
+	font-family: '맑은 고딕';
+	font-weight: bold;
+	font-size: 20px;
+}
